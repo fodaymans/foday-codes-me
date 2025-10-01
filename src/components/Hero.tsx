@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, Github, Linkedin } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const Hero = () => {
   return (
@@ -20,6 +21,17 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10 pt-20">
         <div className="max-w-4xl mx-auto text-center">
+          <div className="mb-8 animate-fade-in flex justify-center">
+            <div className="relative">
+              <img 
+                src={profilePhoto} 
+                alt="Foday Mansaray - Software Developer" 
+                className="w-40 h-40 rounded-full object-cover border-4 border-primary/30 shadow-glow"
+              />
+              <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-20"></div>
+            </div>
+          </div>
+          
           <div className="mb-6 animate-fade-in">
             <span className="inline-block px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-primary text-sm font-medium">
               Software Developer
