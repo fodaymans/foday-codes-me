@@ -11,21 +11,19 @@ const About = () => {
           
           <Card className="bg-gradient-card border-border/50 shadow-card p-8">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Passionate and results-driven Software Developer with a strong enthusiasm for technology 
-              and problem-solving. I am committed to continuous learning and innovation, excelling in 
-              delivering creative, efficient, and user-centric solutions. Experienced in both frontend 
-              and backend development, I thrive on overcoming challenges and contributing to the dynamic 
-              tech landscape across various industries, including entertainment, fintech, and education.
+             I’m a passionate and results-driven developer with experience across frontend and backend development. My work spans diverse industries—entertainment, fintech, education, and health—where I enjoy building creative, efficient, and user-focused solutions.
+
+Currently, I’m contributing to the National Public Health Agency, where I work with health systems like DHIS2 (API integration & administration) to support data-driven decision-making. I thrive on problem-solving, continuous learning, and using technology to make a real-world impact.
             </p>
           </Card>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
             <Card className="bg-gradient-card border-border/50 shadow-card p-6 text-center hover:shadow-glow transition-shadow">
-              <div className="text-4xl font-bold text-primary mb-2">10+</div>
+              <div className="text-4xl font-bold text-primary mb-2">13+</div>
               <div className="text-muted-foreground">Projects Completed</div>
             </Card>
             <Card className="bg-gradient-card border-border/50 shadow-card p-6 text-center hover:shadow-glow transition-shadow">
-              <div className="text-4xl font-bold text-primary mb-2">3+</div>
+              <div className="text-4xl font-bold text-primary mb-2">5+</div>
               <div className="text-muted-foreground">Years Experience</div>
             </Card>
             <Card className="bg-gradient-card border-border/50 shadow-card p-6 text-center hover:shadow-glow transition-shadow">

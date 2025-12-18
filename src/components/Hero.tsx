@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, Github, Linkedin } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/ppp.jpg";
 
 const Hero = () => {
   return (
@@ -43,8 +43,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in-up animation-delay-200">
-            Passionate full-stack developer crafting innovative solutions across entertainment, fintech, and education sectors
-          </p>
+Passionate full-stack developer crafting innovative solutions across entertainment, fintech, education, and health.          </p>
           
           <div className="flex flex-wrap items-center justify-center gap-4 mb-12 animate-fade-in-up animation-delay-300">
             <Button asChild size="lg" className="bg-gradient-primary hover:opacity-90 shadow-glow">
@@ -62,10 +61,10 @@ const Hero = () => {
             <a href="tel:23278473628" className="hover:text-primary transition-colors" aria-label="Phone">
               <Phone size={24} />
             </a>
-            <a href="#" className="hover:text-primary transition-colors" aria-label="GitHub">
+            <a href="https://github.com/fodaymans" className="hover:text-primary transition-colors" aria-label="GitHub">
               <Github size={24} />
             </a>
-            <a href="#" className="hover:text-primary transition-colors" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/foday-mansaray-084554259/" className="hover:text-primary transition-colors" aria-label="LinkedIn">
               <Linkedin size={24} />
             </a>
           </div>

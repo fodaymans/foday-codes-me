@@ -4,30 +4,34 @@ import { ExternalLink } from "lucide-react";
 
 const Projects = () => {
   const projects = [
-    {
-      title: "Energy Generation & Sales Tracker",
-      description: "React.js application for tracking energy generation and sales across various sectors for the power supply authority.",
-      link: "http://demo.icgssystems.com:3000/",
-      credentials: "username: mansray0@gmail.com | pass: O4EU3",
-      category: "Government",
+  
+
+
+ {
+      title: "Sierra Leone Insurance Company",
+      description: "Portal for managing customer records , complaints ,managing payments and also commission for marketers.",
+      link: "http://slcoadmin.icgs.xyz",
+       credentials: "username: Admin | pass: 12345",
+      category: "Insurance",
     },
+
     {
       title: "eGovernment System",
       description: "Comprehensive eGovernment system built with React.js for streamlined government operations.",
-      link: "http://demo.icgssystems.com:3001/",
+      link: "http://egov.smartsystemsserver.xyz/login",
       credentials: "username: moud | pass: 12345",
       category: "Government",
     },
     {
       title: "Apex Bank Disbursement System",
       description: "Bulk disbursement system to streamline financial transactions, improving speed and accuracy in payout processing.",
-      link: "http://demo.icgssystems.com:3008/",
+      link: "http://apexbulkpay.smartsystemsserver.xyz",
       category: "Fintech",
     },
     {
       title: "LAPO Disbursement System",
       description: "UNDP-backed project developed in collaboration with LAPO to drive economic and social impact through efficient disbursement management.",
-      link: "http://demo.icgssystems.com:3007/",
+      link: "http://lapodisbursement.smartsystemsserver.xyz",
       category: "Fintech",
     },
     {
@@ -39,7 +43,7 @@ const Projects = () => {
     {
       title: "Vult Raffle Draw",
       description: "Secure, transparent, and automated raffle draw application for a fintech company.",
-      link: "http://demo.icgssystems.com:3005/",
+      link: "http://vult.icgs.xyz/",
       category: "Fintech",
     },
     {
@@ -57,12 +61,64 @@ const Projects = () => {
     {
       title: "Sierra Leone Writers Series",
       description: "Website supporting local authors and promoting their work online.",
-      link: "https://slwriterseries.org/",
-      category: "Entertainment",
+      link: "https://slwritersseries.org/",
+      category: "Education",
     },
+
+     {
+      title: "Energy Generation & Sales Tracker",
+      description: "React.js application for tracking energy generation and sales across various sectors for the power supply authority.",
+      link: "http://demo.icgssystems.com:3000/",
+      credentials: "username: mansray0@gmail.com | pass: O4EU3",
+      category: "Government",
+    },
+
+     {
+      title: "JJB Restaurant Menu",
+      description: "An online menu which allows customers to view the menu via QR-Code Scanning.",
+      link: "https://jjbmenu.icgs.xyz",
+      category: "Restaurant",
+    },
+
+     {
+      title: "Ady Macauley Campaign Website",
+      description: "A Portfolio website for a potential candidate for the APC political party in Sierra Leone .",
+      link: "https://ady4you.icgs.xyz",
+      category: "Website",
+    },
+
+     {
+      title: "Agrovate",
+      description: "A Web application funded by the Governemnt of Sierra Leone which is used to send funds,agricultural items to farmers and dealers, which makes it seamless for running of Agriculture in Sierra Leone .",
+      link: "https://fsrp.agvouchers.com",
+      category: "Government",
+    },
+
+  
+     {
+      title: "Sahia Foods",
+      description: "A Web application funded by the Governemnt of Sierra Leone which is used to send funds,agricultural items to farmers and dealers, which makes it seamless for running of Agriculture in Sierra Leone .",
+      link: "https://www.sahiafoods.com",
+      category: "Agriculture",
+    },
+
+      {
+      title: "Invoice Management System",
+      description: "A Web application funded by the Governemnt of Sierra Leone which is used to send funds,agricultural items to farmers and dealers, which makes it seamless for running of Agriculture in Sierra Leone .",
+      link: "https://www.sahiafoods.com",
+      category: "Fintech",
+    },
+
+      {
+      title: "Cash Request System",
+      description: "A Web application funded by the Governemnt of Sierra Leone which is used to send funds,agricultural items to farmers and dealers, which makes it seamless for running of Agriculture in Sierra Leone .",
+      link: "https://www.sahiafoods.com",
+      category: "Fintech",
+    },
+
   ];
 
-  const categories = ["All", "Government", "Fintech", "Education", "Entertainment"];
+  const categories = ["All", "Government", "Fintech", "Education", "Entertainment","Insurance","Restaurant","Website"];
 
   return (
     <section id="projects" className="py-20 bg-background">

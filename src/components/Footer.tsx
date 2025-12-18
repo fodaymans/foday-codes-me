@@ -10,7 +10,7 @@ const Footer = () => {
               Foday Mansaray
             </div>
             <p className="text-sm text-muted-foreground">
-              Software Developer | Full-Stack Specialist
+             Software Developer 
             </p>
           </div>
 
@@ -30,14 +30,14 @@ const Footer = () => {
               <Phone size={20} />
             </a>
             <a
-              href="#"
+              href="https://github.com/fodaymans"
               className="hover:text-primary transition-colors"
               aria-label="GitHub"
             >
               <Github size={20} />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/foday-mansaray-084554259/"
               className="hover:text-primary transition-colors"
               aria-label="LinkedIn"
             >

@@ -14,17 +14,8 @@ const Experience = () => {
         "Led end-to-end mobile app development, ensuring smooth integration with legacy systems",
       ],
     },
-    {
-      title: "Full-Stack Developer",
-      company: "Smart Systems SL Ltd",
-      period: "January 2023 – 2024",
-      responsibilities: [
-        "Designed user interfaces, implemented server-side logic, and managed databases to ensure reliable application performance",
-        "Maintained and updated in-house applications, addressing bugs and rolling out new features",
-        "Developed custom software solutions for clients, tailored to meet specific business needs",
-      ],
-    },
-    {
+
+ {
       title: "Software Developer (Contract)",
       company: "University of Sierra Leone",
       period: "July 2022 – July 2023",
@@ -33,6 +24,29 @@ const Experience = () => {
         "Maintained and added new features to the university portal, improving user experience and system performance",
       ],
     },
+
+    {
+      title: "Full-Stack Developer",
+      company: "Smart Systems SL Ltd",
+      period: "January 2023 – January 2025",
+      responsibilities: [
+        "Designed user interfaces, implemented server-side logic, and managed databases to ensure reliable application performance",
+        "Maintained and updated in-house applications, addressing bugs and rolling out new features",
+        "Developed custom software solutions for clients, tailored to meet specific business needs",
+      ],
+    },
+
+     {
+      title: "Software Developer (Contract)",
+      company: "National Public Health Agency ",
+      period: "January 2025 – Present",
+      responsibilities: [
+        "Developed and maintained health-related software solutions, leveraging DHIS2 API for seamless data integration and system administration.",
+        "Collaborated with health professionals to design applications that enhance public health data management and reporting.",
+        "Implemented secure and scalable systems to support critical health information workflows",
+      ],
+    },
+   
   ];
 
   return (

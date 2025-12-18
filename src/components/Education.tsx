@@ -6,6 +6,8 @@ const Education = () => {
     "Microsoft SQL Server",
     "Modern JavaScript for React.js",
     "ASP.NET MVC",
+    "The ultimate React.js Developer Course",
+    "Ethical Hacking and Penetration Testing",
   ];
 
   return (
@@ -39,6 +41,32 @@ const Education = () => {
                   <h3 className="text-xl font-semibold mb-2">Hackathon Winner</h3>
                   <div className="text-primary mb-1">UNESCO India Africa Hackathon</div>
                   <div className="text-sm text-muted-foreground">2022</div>
+                </div>
+              </div>
+            </Card>
+
+              <Card className="bg-gradient-card border-border/50 shadow-card p-6 hover:shadow-glow transition-shadow">
+              <div className="flex items-start gap-4">
+                <div className="p-3 bg-primary/10 rounded-lg shrink-0">
+                  <Award className="w-6 h-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">DHIS2 API Integration</h3>
+                  <div className="text-primary mb-1">HISP South Africa</div>
+                  <div className="text-sm text-muted-foreground">2025</div>
+                </div>
+              </div>
+            </Card>
+
+              <Card className="bg-gradient-card border-border/50 shadow-card p-6 hover:shadow-glow transition-shadow">
+              <div className="flex items-start gap-4">
+                <div className="p-3 bg-primary/10 rounded-lg shrink-0">
+                  <Award className="w-6 h-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">DHIS2 SYSTEN ADMINISTRATION</h3>
+                  <div className="text-primary mb-1">HISP South Africa</div>
+                  <div className="text-sm text-muted-foreground">2025</div>
                 </div>
               </div>
             </Card>
