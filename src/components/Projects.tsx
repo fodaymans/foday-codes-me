@@ -105,7 +105,7 @@ const Projects = () => {
       {
       title: "Invoice Management System",
       description: "A Web application funded by the Governemnt of Sierra Leone which is used to send funds,agricultural items to farmers and dealers, which makes it seamless for running of Agriculture in Sierra Leone .",
-      link: "https://www.sahiafoods.com",
+      link: "https://salbininvestment.com",
       category: "Fintech",
     },
 
